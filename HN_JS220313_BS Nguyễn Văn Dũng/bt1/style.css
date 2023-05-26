@@ -1,0 +1,49 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Căn chỉnh bảng 1 từ trên xuống dưới */
+  #table1 {
+    margin-bottom: 20px;
+  }

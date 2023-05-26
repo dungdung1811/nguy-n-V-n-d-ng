@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>Thông tin học viên</h2>
+  <table>
+    <tr>
+      <th>Họ và tên</th>
+      <th>Email</th>
+      <th>Số điện thoại</th>
+      <th>Quê quán</th>
+      <th>Giới tính</th>
+    </tr>
+    <tr>
+      <td><input type="text" class="name"></td>
+      <td><input type="email"class="email"></td>
+      <td><input type="tel"class="tel"></td>
+      <td><input type="text"class="addess"></td>
+      <td>
+        <label><input class="sexMen" type="radio" name="gender" value="Nam">Nam</label>
+        <label><input class="sexWoment" type="radio" name="gender" value="Nữ">Nữ</label>
+      </td>
+    </tr>
+  </table>
+  <button class="btn">Lưu trữ</button>
+
+  <h2>Danh sách học viên</h2>
+  <div>
+    <input type="text" placeholder="Tìm kiếm học viên">
+    <button>Tìm kiếm</button>
+  </div>
+  <table>
+    <caption>Bảng danh sách học viên</caption>
+    <tr>
+      <th>STT</th>
+      <th>Họ và tên</th>
+      <th>Email</th>
+      <th>Số điện thoại</th>
+      <th>Quê quán</th>
+      <th>Giới tính</th>
+      <th>Hành động</th>
+      <th>Xắp xếp(anpha B)</th>
+    </tr>
+    <tbody class="myBody">
+      <tr>
+        <td>1</td>
+        <td>Dũng</td>
+        <td>nguyendung181192@gmail.com</td>
+        <td>0123456789</td>
+        <td>hà nội</td>
+        <td>bê đê</td>
+        <td class="center">
+          <button>Edit</button>
+          <button class="xoa">Delete</button>
+        </td>
+        <td>
+        </td>
+      </tr>
+    </tbody>
+    
+  </table>
+    <script src="./main.js"></script>
+</body>
+</html>
